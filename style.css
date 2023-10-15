@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background: radial-gradient(
+    ellipse at center,
+    #0c2d71 0%,
+    #1c6ea4 61%,
+    #1d2234 100%
+  );
+}
+#container {
+  
+  width: 1440px;
+  height: 890px;
+  outline: 45px solid rgba(0, 0, 0, 0.493);
+  background: #1d2234;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#projeto {
+  width: auto;
+  height: auto;
+}
